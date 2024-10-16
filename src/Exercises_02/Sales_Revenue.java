@@ -33,7 +33,6 @@ public class Sales_Revenue {
         if (discountRate > 0) {
             System.out.println("Discount: " + discountAmount + "$ (" + (discountRate * 100) + "%)");
         }
-
         scanner.close();
     }
 }

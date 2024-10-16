@@ -16,5 +16,4 @@ public class Work_Eligibility {
                 System.out.println("You are eligible to work.");
             }
         }
-
     }

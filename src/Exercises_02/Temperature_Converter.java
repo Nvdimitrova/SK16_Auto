@@ -26,7 +26,6 @@ public class Temperature_Converter {
         } else {
             System.out.println("Invalid input. Please enter 'C' or 'F'.");
         }
-
         scanner.close();
     }
 }

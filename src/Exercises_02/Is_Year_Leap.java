@@ -17,5 +17,6 @@ public class Is_Year_Leap {
         else{
             System.out.println("Not Leap Year");
         }
+        scanner.close();
     }
 }

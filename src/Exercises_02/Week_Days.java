@@ -32,8 +32,5 @@ public class Week_Days {
             default:
                 System.out.println("Invalid day:" + day + " Please, enter a number between 1-7.");
         }
-
-
-
     }
 }

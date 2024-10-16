@@ -39,7 +39,6 @@ public class Triangle_Type {
             // If the angles don't add up to 180, the triangle can't be formed
             System.out.println("A triangle cannot be built with these angles.");
         }
-
         scanner.close();
     }
 }

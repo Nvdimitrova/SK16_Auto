@@ -47,4 +47,4 @@ public class Vacation_Planning {
                 System.out.println("There is no information about this type of vacation!");
         }
     }
-    }
+}
