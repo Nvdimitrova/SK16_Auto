@@ -13,20 +13,27 @@ public class Triangle_Perimeter {
     }
 }
 
+
 /*
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Please, enter side A");
-        float sideA = scanner.nextByte();
+        double sideA = scanner.nextDouble();
         System.out.println("Please, enter side B");
-        float sideB = scanner.nextByte();
+        double sideB = scanner.nextDouble();
         System.out.println("Please, enter side C");
-        float sideC = scanner.nextByte();
+        double sideC = scanner.nextDouble();
 
-        float perimeter = sideA + sideB + sideC;
+        double perimeter = sideA + sideB + sideC;
+
         System.out.println("The perimeter is: " + perimeter);
+
+        scanner.close();
     }
 }
-
  */
+
+
+
+

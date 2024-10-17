@@ -9,12 +9,11 @@ public class Is_Year_Leap {
         System.out.println("Please, enter a year:");
         int year = scanner.nextInt();
 
-        if (year % 4 == 0){
-            if (year % 100 != 0 || year % 400 == 0){
+        if (year % 4 == 0) {
+            if (year % 100 != 0 || year % 400 == 0) {
                 System.out.println("Leap Year");
             }
-        }
-        else{
+        } else {
             System.out.println("Not Leap Year");
         }
         scanner.close();

@@ -13,19 +13,27 @@ public class Triangle_Area {
     }
 }
 
+
 /*
      public static void main(String[] args) {
          Scanner scanner = new Scanner(System.in);
-         System.out.println("Please, enter side a");
-         float sideA = scanner.nextFloat();
-         System.out.println("Please, enter height");
-         float height = scanner.nextFloat();
 
-         float area = (sideA * height) / 2;
+         System.out.println("Please, enter side a");
+         double sideA = scanner.nextDouble();
+         System.out.println("Please, enter height");
+         double height = scanner.nextDouble();
+
+         double area = (sideA * height) / 2;
 
          System.out.println("The area is: " + area);
+
+         scanner.close();
      }
-     scanner.close();
- }
+}
+
  */
+
+
+
+
 

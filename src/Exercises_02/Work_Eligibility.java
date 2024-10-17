@@ -10,10 +10,9 @@ public class Work_Eligibility {
 
         if (years < 16) {
             System.out.println("You are not eligible to work.");
+        } else {
+            System.out.println("You are eligible to work.");
         }
-
-        else {
-                System.out.println("You are eligible to work.");
-            }
-        }
+        scanner.close();
     }
+}

@@ -8,7 +8,7 @@ public class Week_Days {
         Scanner scanner = new Scanner(System.in);
         int day = scanner.nextInt();
 
-        switch (day){
+        switch (day) {
             case 1:
                 System.out.println("The " + day + "-st day of the week is Monday.");
                 break;
@@ -32,5 +32,6 @@ public class Week_Days {
             default:
                 System.out.println("Invalid day:" + day + " Please, enter a number between 1-7.");
         }
+        scanner.close();
     }
 }

@@ -45,6 +45,7 @@ public class Vacation_Planning {
                 break;
             default:
                 System.out.println("There is no information about this type of vacation!");
+                scanner.close();
         }
     }
 }
