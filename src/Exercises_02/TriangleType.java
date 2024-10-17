@@ -2,7 +2,7 @@ package Exercises_02;
 
 import java.util.Scanner;
 
-public class Triangle_Type {
+public class TriangleType {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

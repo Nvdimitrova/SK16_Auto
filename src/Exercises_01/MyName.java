@@ -2,7 +2,7 @@ package Exercises_01;
 
 //import java.util.Scanner;
 
-public class My_Name {
+public class MyName {
     public static void main(String[] args) {
         String firstName = "Nikol";
         String secondName = "Valentinova";

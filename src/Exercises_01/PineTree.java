@@ -1,6 +1,6 @@
 package Exercises_01;
 
-public class Pine_Tree {
+public class PineTree {
     public static void main(String[] args) {
         char asterisk = '*';
         System.out.println("     " + asterisk);

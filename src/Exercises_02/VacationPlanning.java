@@ -2,7 +2,7 @@ package Exercises_02;
 
 import java.util.Scanner;
 
-public class Vacation_Planning {
+public class VacationPlanning {
     public static void main(String[] args) {
         String vacationType;
         double budget;

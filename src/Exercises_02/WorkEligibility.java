@@ -2,7 +2,7 @@ package Exercises_02;
 
 import java.util.Scanner;
 
-public class Work_Eligibility {
+public class WorkEligibility {
     public static void main(String[] args) {
         System.out.println("Please, enter your age:");
         Scanner scanner = new Scanner(System.in);

@@ -1,6 +1,6 @@
 package Exercises_03;
 
-public class Divisible_By_Five {
+public class DivisibleByFive {
     public static void main(String[] args) {
         int[] list1 = {10, 15, 33, 44, 55, 75, 122, 133, 200};
 

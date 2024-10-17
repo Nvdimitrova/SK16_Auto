@@ -2,7 +2,7 @@ package Exercises_02;
 
 import java.util.Scanner;
 
-public class Is_Year_Leap {
+public class IsYearLeap {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

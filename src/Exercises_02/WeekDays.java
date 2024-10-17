@@ -2,7 +2,7 @@ package Exercises_02;
 
 import java.util.Scanner;
 
-public class Week_Days {
+public class WeekDays {
     public static void main(String[] args) {
         System.out.println("Please, enter a day of the week:");
         Scanner scanner = new Scanner(System.in);

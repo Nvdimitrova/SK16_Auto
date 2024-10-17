@@ -1,6 +1,6 @@
 package Exercises_03;
 
-public class Largest_Number {
+public class LargestNumber {
     public static void main(String[] args) {
         int[] numbers = {3, 7, 17, 21, 14, 33};
         int largest = numbers[0];

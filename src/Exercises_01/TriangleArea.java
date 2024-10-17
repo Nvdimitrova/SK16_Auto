@@ -2,7 +2,7 @@ package Exercises_01;
 
 //import java.util.Scanner;
 
-public class Triangle_Area {
+public class TriangleArea {
     public static void main(String[] args) {
         float sideA = 7.1F;
         float height = 9.3F;

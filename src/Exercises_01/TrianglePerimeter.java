@@ -2,7 +2,7 @@ package Exercises_01;
 
 //import java.util.Scanner;
 
-public class Triangle_Perimeter {
+public class TrianglePerimeter {
     public static void main(String[] args) {
         int sideA = 11;
         int sideB = 22;

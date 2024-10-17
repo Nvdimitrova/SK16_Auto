@@ -2,7 +2,7 @@ package Exercises_01;
 
 import java.util.Scanner;
 
-public class Minutes_Into_Years_And_Days {
+public class MinutesIntoYearsAndDays {
     public static void main(String[] args) {
         byte minutesInHour = 60;
         byte hoursInDay = 24;

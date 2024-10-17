@@ -1,6 +1,6 @@
 package Exercises_03;
 
-public class First_Multiple {
+public class FirstMultiple {
     public static void main(String[] args) {
         int[] numbers = {3, 7, 17, 25, 30, 40};
         for (int number : numbers) {
