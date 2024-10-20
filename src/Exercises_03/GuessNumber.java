@@ -11,6 +11,7 @@ public class GuessNumber {
 
 //      random.nextInt(100) + 1 is the same as random.nextInt(1, 101)
         int number = random.nextInt(1, 101);
+//      store user guess
         int userGuess;
 
         do {
