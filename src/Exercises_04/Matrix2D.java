@@ -13,7 +13,6 @@ public class Matrix2D {
             for (int column = 0; column < matrix[row].length; column++) {
                 System.out.print(matrix[row][column] + " ");
             }
-//          Print new line after each row
             System.out.println();
         }
     }
