@@ -6,34 +6,26 @@ public class SalesRevenue {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Input unit price and quantity
-        System.out.print("Enter unit price: ");
-        double unitPrice = scanner.nextDouble();
+        System.out.println("Please, enter unit price");
+        int price = Integer.parseInt(scanner.nextLine());
+        System.out.println("Please, enter quantity");
+        int quantity = Integer.parseInt(scanner.nextLine());
 
-        System.out.print("Enter quantity: ");
-        int quantity = scanner.nextInt();
+        double discount = 1;
 
-        // Initialize discount variables
-        double discountRate = 0.0;
-
-        // Determine the discount rate based on quantity
         if (quantity >= 100 && quantity <= 120) {
-            discountRate = 0.15;  // 15% discount
+            discount = 0.15;
         } else if (quantity > 120) {
-            discountRate = 0.20;  // 20% discount
+            discount = 0.2;
         }
 
-        // Calculate total price and discount
-        double totalPrice = unitPrice * quantity;
-        double discountAmount = totalPrice * discountRate;
+        double totalPrice = quantity * price;
+        double discountAmount = (quantity * price) * discount;
         double finalRevenue = totalPrice - discountAmount;
 
-        // Output the results
-        System.out.println("The revenue from sale: " + finalRevenue + "$");
-        if (discountRate > 0) {
-            System.out.println("Discount: " + discountAmount + "$ (" + (discountRate * 100) + "%)");
-        }
+        System.out.println("The revenue from sale is: " + finalRevenue + "$");
+        System.out.println("Discount is: " + discountAmount + "$");
+
         scanner.close();
     }
 }
-

@@ -6,7 +6,7 @@ public class WorkEligibility {
     public static void main(String[] args) {
         System.out.println("Please, enter your age:");
         Scanner scanner = new Scanner(System.in);
-        int years = scanner.nextInt();
+        int years = Integer.parseInt(scanner.nextLine());
 
         if (years < 16) {
             System.out.println("You are not eligible to work.");

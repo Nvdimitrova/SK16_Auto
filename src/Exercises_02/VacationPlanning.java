@@ -4,48 +4,57 @@ import java.util.Scanner;
 
 public class VacationPlanning {
     public static void main(String[] args) {
-        String vacationType;
-        double budget;
-        double dailyBudget;
-        int people;
-        int days;
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Please, enter type of vacation");
+        String typeOfVacation = scanner.nextLine();
+        System.out.println("Please, enter number of days");
+        int days = Integer.parseInt(scanner.nextLine());
+        System.out.println("Please, enter number of people");
+        int people = Integer.parseInt(scanner.nextLine());
+        System.out.println("Please, enter budget");
+        double budget = Double.parseDouble(scanner.nextLine());
+
+        double dailyBudget = budget / (days * people);
+
         String bulgariaDestinationMessage = "Available destination: Bulgaria";
         String nonBulgariaDestinationMessage = "Available destination: Outside Bulgaria";
 
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Please, enter vacation type:");
-        vacationType = scanner.nextLine();
-
-        System.out.println("Please, enter number of days:");
-        days = scanner.nextInt();
-
-        System.out.println("Please, enter number of people:");
-        people = scanner.nextInt();
-
-        System.out.println("Please, enter your budget:");
-        budget = scanner.nextDouble();
-
-        dailyBudget = budget / (days * people);
-
-        switch (vacationType) {
+        switch (typeOfVacation) {
             case "Beach":
-                if (dailyBudget < 50) {
+                if (dailyBudget >= 50) {
                     System.out.println(bulgariaDestinationMessage);
                 } else {
                     System.out.println(nonBulgariaDestinationMessage);
                 }
-                break;
             case "Mountain":
-                if (dailyBudget < 30) {
+                if (dailyBudget >= 30) {
                     System.out.println(bulgariaDestinationMessage);
                 } else {
                     System.out.println(nonBulgariaDestinationMessage);
                 }
-                break;
             default:
-                System.out.println("There is no information about this type of vacation!");
-                scanner.close();
+                System.out.println("There is no information about this type of vacation.");
         }
+        scanner.close();
     }
 }
+
+//        if (typeOfVacation.equals("Beach")) {
+//            if (dailyBudget >= 50) {
+//                System.out.println(bulgariaDestinationMessage);
+//            } else {
+//                System.out.println(nonBulgariaDestinationMessage);
+//            }
+//        } else if (typeOfVacation.equals("Mountain")) {
+//            if (dailyBudget >= 30) {
+//                System.out.println(bulgariaDestinationMessage);
+//            } else {
+//                System.out.println(nonBulgariaDestinationMessage);
+//            }
+//        } else {
+//            System.out.println("There is no information about this type of vacation.");
+//        }
+//        scanner.close();
+//    }
+//}
