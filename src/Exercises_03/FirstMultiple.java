@@ -1,5 +1,7 @@
 package Exercises_03;
 
+import java.util.Collections;
+
 public class FirstMultiple {
     public static void main(String[] args) {
         int[] numbers = {3, 7, 10, 25, 30, 44, 71, 105, 215};

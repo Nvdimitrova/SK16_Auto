@@ -26,5 +26,6 @@ public class GuessNumber {
             }
 //        continue until correct user guess
         } while (userGuess != number);
+        scanner.close();
     }
 }
