@@ -40,21 +40,23 @@ public class VacationPlanning {
     }
 }
 
-//        if (typeOfVacation.equals("Beach")) {
-//            if (dailyBudget >= 50) {
-//                System.out.println(bulgariaDestinationMessage);
-//            } else {
-//                System.out.println(nonBulgariaDestinationMessage);
-//            }
-//        } else if (typeOfVacation.equals("Mountain")) {
-//            if (dailyBudget >= 30) {
-//                System.out.println(bulgariaDestinationMessage);
-//            } else {
-//                System.out.println(nonBulgariaDestinationMessage);
-//            }
-//        } else {
-//            System.out.println("There is no information about this type of vacation.");
-//        }
-//        scanner.close();
-//    }
-//}
+/*
+        if (typeOfVacation.equals("Beach")) {
+            if (dailyBudget >= 50) {
+                System.out.println(bulgariaDestinationMessage);
+            } else {
+                System.out.println(nonBulgariaDestinationMessage);
+            }
+        } else if (typeOfVacation.equals("Mountain")) {
+            if (dailyBudget >= 30) {
+                System.out.println(bulgariaDestinationMessage);
+            } else {
+                System.out.println(nonBulgariaDestinationMessage);
+            }
+        } else {
+            System.out.println("There is no information about this type of vacation.");
+        }
+        scanner.close();
+    }
+}
+ */

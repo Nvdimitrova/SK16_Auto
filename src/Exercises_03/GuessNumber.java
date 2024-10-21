@@ -9,7 +9,11 @@ public class GuessNumber {
 
         Random random = new Random();
 
-//      random.nextInt(100) + 1 is the same as random.nextInt(1, 101)
+      /* random.nextInt(100) + 1
+             is the same as
+         random.nextInt(1, 101)
+       */
+
         int number = random.nextInt(1, 101);
 //      store user guess
         int userGuess;
