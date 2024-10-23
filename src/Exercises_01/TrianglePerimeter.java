@@ -1,29 +1,17 @@
 package Exercises_01;
 
-//import java.util.Scanner;
+import java.util.Scanner;
 
 public class TrianglePerimeter {
-    public static void main(String[] args) {
-        int sideA = 11;
-        int sideB = 22;
-        int sideC = 33;
-
-        int perimeter = sideA + sideB + sideC;
-        System.out.println("The perimeter is: " + perimeter);
-    }
-}
-
-
-/*
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Please, enter side A");
-        double sideA = scanner.nextDouble();
+        double sideA = Double.parseDouble(scanner.nextLine());
         System.out.println("Please, enter side B");
-        double sideB = scanner.nextDouble();
+        double sideB = Double.parseDouble(scanner.nextLine());
         System.out.println("Please, enter side C");
-        double sideC = scanner.nextDouble();
+        double sideC = Double.parseDouble(scanner.nextLine());
 
         double perimeter = sideA + sideB + sideC;
 
@@ -32,8 +20,3 @@ public class TrianglePerimeter {
         scanner.close();
     }
 }
- */
-
-
-
-

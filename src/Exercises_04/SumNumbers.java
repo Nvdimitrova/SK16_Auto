@@ -11,15 +11,3 @@ public class SumNumbers {
         System.out.println("The sum of the array is: " + sum);
     }
 }
-
-/*
-        for (int i = 0; i < list.length; i++) {
-            sum += list[i];
-        }
-
-        is identical to:
-
-        for (double num : numbers) {
-            sum += num;
-        }
- */
