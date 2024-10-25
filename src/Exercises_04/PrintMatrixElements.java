@@ -1,6 +1,6 @@
 package Exercises_04;
 
-public class Matrix2D {
+public class PrintMatrixElements {
     public static void main(String[] args) {
         int[][] matrix = {
                 {1, 2, 3},

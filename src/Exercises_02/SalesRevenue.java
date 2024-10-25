@@ -6,9 +6,9 @@ public class SalesRevenue {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Please, enter unit price");
+        System.out.print("Please, enter unit price: ");
         int price = Integer.parseInt(scanner.nextLine());
-        System.out.println("Please, enter quantity");
+        System.out.print("Please, enter quantity: ");
         int quantity = Integer.parseInt(scanner.nextLine());
 
         double discount = 1;

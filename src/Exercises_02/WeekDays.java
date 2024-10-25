@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class WeekDays {
     public static void main(String[] args) {
-        System.out.println("Please, enter a day of the week:");
+        System.out.print("Please, enter a day of the week: ");
         Scanner scanner = new Scanner(System.in);
         int day = scanner.nextInt();
 

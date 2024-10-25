@@ -7,9 +7,9 @@ public class TemperatureConverter {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Please, enter degrees to convert");
+        System.out.print("Please, enter degrees to convert: ");
         double degrees = Double.parseDouble(scanner.nextLine());
-        System.out.print("Please, enter 'C' to convert to Fahrenheit or 'F' to convert to Celsius");
+        System.out.print("Please, enter 'C' to convert to Fahrenheit or 'F' to convert to Celsius: ");
         String convertDegrees = scanner.nextLine();
 
         double fahrenheit = 0;

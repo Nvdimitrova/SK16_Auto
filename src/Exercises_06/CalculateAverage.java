@@ -7,8 +7,6 @@ public class CalculateAverage {
     }
 
     public static double computeAverage(double firstNum, double secondNum, double thirdNum) {
-        double averageNum = (firstNum + secondNum + thirdNum) / 3;
-        System.out.println("The average is: " + averageNum);
-        return averageNum;
+        return (firstNum + secondNum + thirdNum) / 3;
     }
 }

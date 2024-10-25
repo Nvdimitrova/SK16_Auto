@@ -10,10 +10,10 @@ public class GuessNumber {
 
         int number = random.nextInt(1, 101);
 //      store user guess
-        int userGuess;
+        int userGuess = 0;
 
         do {
-            System.out.println("Please, enter your guess between 1 and 100");
+            System.out.print("Please, enter your guess between 1 and 100: ");
             userGuess = scanner.nextInt();
             if (userGuess < number) {
                 System.out.println("Too low! Try again.");

@@ -6,13 +6,13 @@ public class VacationPlanning {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Please, enter type of vacation");
+        System.out.print("Please, enter type of vacation: ");
         String typeOfVacation = scanner.nextLine();
-        System.out.println("Please, enter number of days");
+        System.out.print("Please, enter number of days: ");
         int days = Integer.parseInt(scanner.nextLine());
-        System.out.println("Please, enter number of people");
+        System.out.print("Please, enter number of people: ");
         int people = Integer.parseInt(scanner.nextLine());
-        System.out.println("Please, enter budget");
+        System.out.print("Please, enter budget: ");
         double budget = Double.parseDouble(scanner.nextLine());
 
         double dailyBudget = budget / (days * people);

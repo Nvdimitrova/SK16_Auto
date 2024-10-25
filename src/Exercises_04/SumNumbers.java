@@ -5,7 +5,7 @@ public class SumNumbers {
         int[] list = {3, 7, 11, 21};
         int sum = 0;
 
-        for (double num : list) {
+        for (int num : list) {
             sum += num;
         }
         System.out.println("The sum of the array is: " + sum);

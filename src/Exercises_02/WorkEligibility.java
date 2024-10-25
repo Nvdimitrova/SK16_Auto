@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class WorkEligibility {
     public static void main(String[] args) {
-        System.out.println("Please, enter your age:");
+        System.out.print("Please, enter your age: ");
         Scanner scanner = new Scanner(System.in);
         int years = Integer.parseInt(scanner.nextLine());
 
