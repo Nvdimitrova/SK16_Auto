@@ -1,4 +1,4 @@
-package Tips.Arrays.Multidimensional;
+package Tips.Arrays.MultidimensionalArrays;
 
 public class ForLoop {
     public static void main(String[] args) {

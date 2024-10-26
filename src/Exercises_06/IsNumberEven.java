@@ -6,7 +6,7 @@ public class IsNumberEven {
         System.out.println(number);
     }
 
-    public static boolean isEven (int number){
-      return number % 2 == 0;
+    public static boolean isEven (int number) {
+        return number % 2 == 0;
     }
 }
