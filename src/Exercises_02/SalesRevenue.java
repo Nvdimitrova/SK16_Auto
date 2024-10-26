@@ -12,6 +12,7 @@ public class SalesRevenue {
         int quantity = Integer.parseInt(scanner.nextLine());
 
         double discount = 1;
+        char currency = '$';
 
         if (quantity >= 100 && quantity <= 120) {
             discount = 0.15;
@@ -23,8 +24,8 @@ public class SalesRevenue {
         double discountAmount = (quantity * price) * discount;
         double finalRevenue = totalPrice - discountAmount;
 
-        System.out.println("The revenue from sale is: " + finalRevenue + "$");
-        System.out.println("Discount is: " + discountAmount + "$");
+        System.out.println("The revenue from sale is: " + finalRevenue + currency);
+        System.out.println("Discount is: " + discountAmount + currency);
 
         scanner.close();
     }

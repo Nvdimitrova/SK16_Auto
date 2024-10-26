@@ -8,21 +8,22 @@ public class GuessNumber {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
-        int number = random.nextInt(1, 101);
+//        int randomNumber = (int)(Math.random() * 101);
+        int randomNumber = random.nextInt(1, 101);
 //      store user guess
         int userGuess = 0;
 
         do {
             System.out.print("Please, enter your guess between 1 and 100: ");
             userGuess = scanner.nextInt();
-            if (userGuess < number) {
+            if (userGuess < randomNumber) {
                 System.out.println("Too low! Try again.");
-            } else if (userGuess > number) {
+            } else if (userGuess > randomNumber) {
                 System.out.println("Too high! Try again.");
             } else {
-                System.out.println("Congratulations! You have guessed the number.");
+                System.out.println("Congratulations! You have guessed the randomNumber.");
             }
-        } while (userGuess != number);
+        } while (userGuess != randomNumber);
         scanner.close();
     }
 }
