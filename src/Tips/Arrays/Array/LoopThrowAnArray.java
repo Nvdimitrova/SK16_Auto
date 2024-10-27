@@ -1,4 +1,4 @@
-package Tips.Arrays;
+package Tips.Arrays.Array;
 
 public class LoopThrowAnArray {
     public static void main(String[] args) {

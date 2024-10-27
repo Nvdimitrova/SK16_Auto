@@ -1,10 +1,10 @@
-package Tips.Arrays;
+package Tips.Arrays.Array;
 
 public class ForLoopThrowAnArray {
     public static void main(String[] args) {
 
         /*
-        for (type variable : arrayname) {
+        for (type variable : arrayName) {
             ...
         }
 

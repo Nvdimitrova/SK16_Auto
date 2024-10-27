@@ -1,4 +1,4 @@
-package Tips.Arrays.MultidimensionalArrays;
+package Tips.Arrays.MultidimensionalArray;
 
 import java.util.Arrays;
 

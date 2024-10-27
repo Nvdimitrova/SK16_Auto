@@ -1,4 +1,4 @@
-package Tips.Arrays.MultidimensionalArrays;
+package Tips.Arrays.MultidimensionalArray;
 
 public class Loop {
     public static void main(String[] args) {
