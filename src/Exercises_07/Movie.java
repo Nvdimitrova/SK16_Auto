@@ -3,15 +3,9 @@ package Exercises_07;
 public class Movie {
     String title;
     String genre;
-    double rating;
+    float rating;
 
-    public Movie() {
-        this.title = "Titanic";
-        this.genre = "drama";
-        this.rating = 7.9;
-    }
-
-    public Movie(String title, String genre, double rating) {
+    public Movie(String title, String genre, float rating) {
         this.title = title;
         this.genre = genre;
         this.rating = rating;
