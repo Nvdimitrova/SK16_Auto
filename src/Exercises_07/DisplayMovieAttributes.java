@@ -2,34 +2,17 @@ package Exercises_07;
 
 public class DisplayMovieAttributes {
     public static void main(String[] args) {
-        Movie displayMovie = new Movie();
-
-        displayMovie.title = "The Godfather";
-        displayMovie.genre = "crime";
-        displayMovie.rating = 9.2;
-
+        Movie displayFirstMovie = new Movie("The Godfather", "crime", 9.2);
         System.out.println("First movie");
-        System.out.println("Title: " + displayMovie.title);
-        System.out.println("Genre: " + displayMovie.genre);
-        System.out.println("Rating: " + displayMovie.rating);
+        displayFirstMovie.printAttributes();
 
-        displayMovie.title = "Fight Club";
-        displayMovie.genre = "drama";
-        displayMovie.rating = 8.8;
-
+        Movie displaySecondMovie = new Movie("Fight Club", "drama", 8.8);
         System.out.println("\nSecond movie");
-        System.out.println("Title: " + displayMovie.title);
-        System.out.println("Genre: " + displayMovie.genre);
-        System.out.println("Rating: " + displayMovie.rating);
+        displaySecondMovie.printAttributes();
 
-        displayMovie.title = "The Matrix";
-        displayMovie.genre = "action";
-        displayMovie.rating = 8.7;
-
+        Movie displayThirdMovie = new Movie("The Matrix", "action", 8.7);
         System.out.println("\nThird movie");
-        System.out.println("Title: " + displayMovie.title);
-        System.out.println("Genre: " + displayMovie.genre);
-        System.out.println("Rating: " + displayMovie.rating);
+        displayThirdMovie.printAttributes();
 
         Movie defaultMovie = new Movie();
         System.out.println("\nDefault movie");
