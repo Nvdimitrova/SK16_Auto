@@ -4,9 +4,9 @@ import java.util.ArrayList;
 
 public class Student {
     String name;
-    ArrayList<Double> grades;
+    ArrayList<Float> grades;
 
-    public Student(String name, ArrayList<Double> grades) {
+    public Student(String name, ArrayList<Float> grades) {
         this.name = name;
         this.grades = grades;
     }
@@ -22,6 +22,7 @@ public class Student {
 
     public void displayStudentInfo() {
         System.out.println("Student name: " + name);
-        System.out.println("Average grade: " + CalculateAverageGrade());
+        System.out.printf("Average grade: %.2f ", CalculateAverageGrade());
+        System.out.println();
     }
 }

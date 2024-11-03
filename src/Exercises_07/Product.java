@@ -22,18 +22,18 @@ public class Product {
     public double priceWithDiscount() {
         if (isOnSale && price > 100) {
             return price * 0.9;
-        } else {
-            return price;
         }
+        return price;
     }
 
     public void printProductDetails() {
         System.out.println("Product name: " + productName);
         System.out.println("Category: " + category);
         if (isOnSale) {
-            System.out.printf("Total price with discount: %.2f  ", priceWithDiscount());
+            System.out.printf("Total price with discount: $%.2f", priceWithDiscount());
         } else {
-            System.out.printf("Total price: %.2f ", price);
+            System.out.printf("Total price: $%.2f", price);
         }
+        System.out.println();
     }
 }
