@@ -1,4 +1,4 @@
-package Exercises_07;
+package Exercises_07.MovieMethods;
 
 public class DisplayMovieAttributes {
     public static void main(String[] args) {

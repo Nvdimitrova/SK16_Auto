@@ -1,4 +1,4 @@
-package Exercises_09;
+package Exercises_09.Area;
 
 public class Shape {
     public double shapeArea() {

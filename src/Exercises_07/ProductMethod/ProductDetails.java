@@ -1,4 +1,4 @@
-package Exercises_07;
+package Exercises_07.ProductMethod;
 
 public class ProductDetails {
     public static void main(String[] args) {
