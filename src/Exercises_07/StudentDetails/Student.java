@@ -1,4 +1,4 @@
-package Exercises_07.StudentMethod;
+package Exercises_07.StudentDetails;
 
 import java.util.ArrayList;
 

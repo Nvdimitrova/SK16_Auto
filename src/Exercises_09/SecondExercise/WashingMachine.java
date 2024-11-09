@@ -1,6 +1,6 @@
-package Exercises_09.AppliancesDetails;
+package Exercises_09.SecondExercise;
 
-public class WashingMachine extends HouseholdAppliance {
+public class WashingMachine extends Appliance {
     int loadCapacity;
 
     public WashingMachine(String brand, int powerConsumption, int loadCapacity) {

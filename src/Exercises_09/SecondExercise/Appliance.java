@@ -1,11 +1,11 @@
-package Exercises_09.AppliancesDetails;
+package Exercises_09.SecondExercise;
 
-public class HouseholdAppliance {
+public class Appliance {
     public String brand;
     public int powerConsumption;
     public boolean isTurnedOn;
 
-    public HouseholdAppliance(String brand, int powerConsumption) {
+    public Appliance(String brand, int powerConsumption) {
         this.brand = brand;
         this.powerConsumption = powerConsumption;
         this.isTurnedOn = false;

@@ -1,6 +1,6 @@
-package Exercises_09.AppliancesDetails;
+package Exercises_09.SecondExercise;
 
-public class Appliances {
+public class Main {
     public static void main(String[] args) {
         WashingMachine washingMachine = new WashingMachine("LG", 500, 8);
         washingMachine.displayInfo();

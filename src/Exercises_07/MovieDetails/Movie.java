@@ -1,4 +1,4 @@
-package Exercises_07.MovieMethods;
+package Exercises_07.MovieDetails;
 
 public class Movie {
     String title;

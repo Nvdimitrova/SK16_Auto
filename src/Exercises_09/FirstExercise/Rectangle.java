@@ -1,4 +1,4 @@
-package Exercises_09.Area;
+package Exercises_09.FirstExercise;
 
 public class Rectangle extends Shape {
     double width;

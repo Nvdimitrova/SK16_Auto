@@ -1,4 +1,4 @@
-package Exercises_09.Area;
+package Exercises_09.FirstExercise;
 
 import static java.lang.Math.PI;
 

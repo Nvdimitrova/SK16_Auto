@@ -1,6 +1,6 @@
-package Exercises_09.AppliancesDetails;
+package Exercises_09.SecondExercise;
 
-public class Refrigerator extends HouseholdAppliance {
+public class Refrigerator extends Appliance {
     int temperature;
 
     public Refrigerator(String brand, int powerConsumption) {
