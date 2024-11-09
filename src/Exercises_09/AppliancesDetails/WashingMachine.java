@@ -1,26 +1,24 @@
 package Exercises_09.AppliancesDetails;
 
-public class WashingMachine extends HouseholdAppliances {
-    public int loadCapacity;
+public class WashingMachine extends HouseholdAppliance {
+    int loadCapacity;
 
     public WashingMachine(String brand, int powerConsumption, int loadCapacity) {
         super(brand, powerConsumption);
         this.loadCapacity = loadCapacity;
     }
 
-    @Override
-    public void turnOn() {
-        super.turnOn();
-        startWashCycle();
-    }
-
-    public void startWashCycle(){
-        if (isTurnedOn){
+    public void startWashCycle() {
+        if (super.isTurnedOn) {
             System.out.println("Starting wash cycle with load capacity: " + loadCapacity);
+        } else {
+            System.out.println("Cannot start wash cycle. The washing machine is turned OFF.");
         }
     }
 
-    public void printSpecificDetails() {
+    @Override
+    public void displayInfo() {
+        super.displayInfo();
         System.out.println("Load Capacity: " + loadCapacity + "kg");
     }
 }

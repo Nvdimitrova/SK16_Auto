@@ -1,11 +1,11 @@
 package Exercises_09.AppliancesDetails;
 
-public class HouseholdAppliances {
+public class HouseholdAppliance {
     public String brand;
     public int powerConsumption;
     public boolean isTurnedOn;
 
-    public HouseholdAppliances(String brand, int powerConsumption) {
+    public HouseholdAppliance(String brand, int powerConsumption) {
         this.brand = brand;
         this.powerConsumption = powerConsumption;
         this.isTurnedOn = false;
@@ -21,7 +21,7 @@ public class HouseholdAppliances {
         System.out.println("Appliance is now OFF.");
     }
 
-    public void printDetails(){
+    public void displayInfo() {
         System.out.println("Brand: " + brand);
         System.out.println("Power consumption: " + powerConsumption);
         System.out.println("Status: " + (isTurnedOn ? "ON" : "OFF"));

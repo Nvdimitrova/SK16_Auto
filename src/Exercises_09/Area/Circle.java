@@ -3,7 +3,7 @@ package Exercises_09.Area;
 import static java.lang.Math.PI;
 
 public class Circle extends Shape {
-    public double radius;
+    double radius;
 
     public Circle(double radius) {
         this.radius = radius;
